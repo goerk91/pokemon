@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import PokemonList from "./features/PokemonList";
 import Pagination from "./features/Pagination";
-
+//test
 function App() {
   const [pokemon, setPokemon] = useState([]);
   const [currentPageUrl, setCurrentPageUrl] = useState("https://pokeapi.co/api/v2/pokemon?offset=20&limit=20");
